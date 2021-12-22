@@ -4,7 +4,7 @@
 ## Table of contents
 * [Motivation](#motivation)
 * [Code Style](#code-style)
-* [Tech/Framework(s)](#tech-frameworks)
+* [Frameworks](#frameworks)
 * [Status](#status)
 * [How to Use](#how-to-use)
 * [Credits](#credits)
