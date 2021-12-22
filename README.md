@@ -18,11 +18,11 @@ It made me think: What if I made something to store my fun facts instead of writ
 
 
 ## Code Style
-PEP8(https://pep8.org/)
+[PEP8](https://pep8.org/)
 
 ## Tech/Framework(s)
-[Django](https://www.djangoproject.com/)
-[Bootstrap4](https://getbootstrap.com/)
+* [Django](https://www.djangoproject.com/)
+* [Bootstrap4](https://getbootstrap.com/)
 
 ## Status
 Project is: _finished_
