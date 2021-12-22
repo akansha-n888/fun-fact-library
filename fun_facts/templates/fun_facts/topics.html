@@ -1,0 +1,29 @@
+{% extends "fun_facts/base.html" %}
+{% block page_header %}
+<h1 class="text-center p-4">Topics</h1>
+{% endblock page_header %}
+{% block content %}
+<br>
+<div class="list-group list-group-item row">
+   <div class="col-md-3 mx-auto">
+      <ul>
+         {% for topic in topics %}
+         <li>
+            <h3>
+               <a href="{% url 'fun_facts:topic' topic.id %}">{{ topic }}</a>
+            </h3>
+         </li>
+         {% empty %}
+         <li>
+            <h3>No topics have been added yet.</h3>
+         </li>
+         {% endfor %}
+      </ul>
+   </div>
+</div>
+<br>
+<div class=" row d-flex justify-content-center align-content-center ">
+   <a class="btn btn-secondary" href="{% url 'fun_facts:new_topic' %}"
+      role="button">New Topic &raquo;</a>
+</div>
+{% endblock content %}

@@ -1,0 +1,15 @@
+{% extends "fun_facts/base.html" %}
+{% block content %}
+<div class=" row d-flex justify-content-center align-content-center p-5 m-5">
+   <p>So your interested in adding a new topic to your library?</p>
+</div>
+<div class=" row d-flex justify-content-center align-content-center ">
+   <form  action="{% url 'fun_facts:new_topic' %}" method='post'>
+      {% csrf_token %}
+      {{ form.as_p }}
+      <div class=" row d-flex justify-content-center align-content-center ">
+         <button class="btn btn-secondary" name="submit">Add topic</button>
+      </div>
+   </form>
+</div>
+{% endblock content %}

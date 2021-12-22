@@ -1,0 +1,17 @@
+{% extends "fun_facts/base.html" %}
+{% block content %}
+{% if form.errors %}
+<p>Your username and password didn't match. Please try again.</p>
+{% endif %}
+<div class=" row d-flex justify-content-center align-content-center p-5 m-5">
+   <form method="post" action="{% url 'users:login' %}">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <div class=" row d-flex justify-content-center align-content-center">
+         <button class="btn btn-secondary" name="submit">Log in</button>
+         <input type="hidden" name="next" 
+            value="{% url 'fun_facts:index' %}" />
+      </div>
+   </form>
+</div>
+{% endblock content %}

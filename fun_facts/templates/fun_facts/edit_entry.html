@@ -1,0 +1,10 @@
+{% extends "fun_facts/base.html" %}
+{% block content %}
+<h2 class= "p-5"><a href="{% url 'fun_facts:topic' topic.id %}">{{ topic }}</a></h2>
+<p class= "px-5">Edit entry:</p>
+<form class= "px-5" action="{% url 'fun_facts:edit_entry' entry.id %}" method='post'>
+   {% csrf_token %}
+   {{ form.as_p }}
+   <button class="btn btn-secondary" name="submit">Save changes</button>
+</form>
+{% endblock content %}

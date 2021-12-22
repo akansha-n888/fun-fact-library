@@ -1,0 +1,19 @@
+{% extends "fun_facts/base.html" %}
+{% block page_header %}
+<div class="jumbotron jumbotron-fluid vh-100 bg-dark text-light">
+   <br>
+   <br>
+   <h1 class="display-2 text-center ">We heard you like<br>
+      <strong>fun facts </strong> ;)
+   </h1>
+   <div class=" row d-flex justify-content-center align-content-center px-3 mx-3">
+      <p class="lead text-center">Did you know....<br> you can create your own library of fun facts by listing topics
+         and entries?
+      </p>
+   </div>
+   <div class=" row d-flex justify-content-center align-content-center ">
+      <a class="btn btn-outline-secondary" href="{% url 'users:register' %}"
+         role="button">Register &raquo;</a>
+   </div>
+</div>
+{% endblock page_header %}

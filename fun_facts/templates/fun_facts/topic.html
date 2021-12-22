@@ -1,0 +1,25 @@
+{% extends 'fun_facts/base.html' %}
+{% block page_header %}
+<h2 class= "p-5">{{ topic }}</h2>
+{% endblock page_header %}
+{% block content %}
+<p class= "px-5">
+   <a href="{% url 'fun_facts:new_entry' topic.id %}">New Entry</a>
+</p>
+<ul>
+{% for entry in entries %}
+<div class="card mb-3">
+   <h4 class="card-header">
+      {{ entry.date_added|date:'M d, Y H:i' }}
+      <br>
+      <small><a href="{% url 'fun_facts:edit_entry' entry.id %}">
+      Edit Entry</a></small>
+   </h4>
+   <div class="card-body">
+      {{ entry.text|linebreaks }}
+   </div>
+</div>
+{% empty %}
+<p>There are no entries for this topic yet.</p>
+{% endfor %}
+{% endblock content %}

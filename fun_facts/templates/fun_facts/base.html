@@ -1,0 +1,51 @@
+{% load bootstrap4 %}
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1,
+         shrink-to-fit=no">
+      <title>Fun Fact Library</title>
+      {% bootstrap_css %}
+      {% bootstrap_javascript jquery='full' %}
+   </head>
+   <body>
+      <nav class="navbar navbar-dark bg-dark">
+         <a class="navbar-brand" href="{% url 'fun_facts:index'%}">
+         Fun Fact Library</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span></button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="{% url 'fun_facts:topics'%}">
+                  Topics</a>
+               </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+               {% if user.is_authenticated %}
+               <li class="nav-item">
+                  <a class="nav-link" href="{% url 'users:logout' %}">Log out</a>
+               </li>
+               {% else %}
+               <li class="nav-item">
+                  <a class="nav-link" href="{% url 'users:register' %}">Register</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="{% url 'users:login' %}">Log in</a>
+               </li>
+               {% endif %}
+            </ul>
+         </div>
+      </nav>
+      <main role="main" class="container-fluid p-0 m-0 border-0">
+         <div class="p-0 m-0 border-0"></div>
+         {% block page_header %}{% endblock page_header %}
+         <div>
+            {% block content %}{% endblock content %}
+         </div>
+      </main>
+   </body>
+</html>

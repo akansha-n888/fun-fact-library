@@ -1,0 +1,1 @@
+web: gunicorn fun_fact_lib.wsgi --log-file -
