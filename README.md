@@ -21,14 +21,14 @@ It made me think: What if I made something to store my fun facts instead of writ
 PEP8(https://pep8.org/)
 
 ## Tech/Framework(s)
-Django(https://www.djangoproject.com/)
-Bootstrap4(https://getbootstrap.com/)
+[Django](https://www.djangoproject.com/)
+[Bootstrap4](https://getbootstrap.com/)
 
 ## Status
 Project is: _finished_
 
 ## How to Use
-Use this link! (https://fun-fact-library.herokuapp.com/)
+Use this link! [(https://fun-fact-library.herokuapp.com/)]
 
 ## Credits
 Python Crash Course by Eric Matthes (https://ehmatthes.github.io/pcc/)
