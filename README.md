@@ -11,9 +11,9 @@
 * [Contact](#contact)
 
 ## Motivation
-My friend and I experience the not so rare awkward silence. One day she says "Did you know worms have 5 hearts?". 
+My friend and I experience (the not so rare) awkward silence. One day she says "Did you know worms have 5 hearts?". 
 I didn't know then but it was the beginning of a great inside joke that I'm happy to share with you. 
-Now my friend and I send each other fun facts ironically and sometimes unironically. 
+Now, my friend and I send each other fun facts ironically and (sometimes) unironically. 
 It made me think: What if I made something to store my fun facts instead of writing them in my notes app. And what if that place was centralized so my friend could use it too?
 
 
