@@ -35,6 +35,7 @@ Use this link! (https://fun-fact-library.herokuapp.com/)
 * add delete topic feature
 * add delete entry feature
 * feature that allows topics to be reordered
+* put .env into .gitignore to protect secrete key
 
 ## Credits
 Python Crash Course by Eric Matthes (https://ehmatthes.github.io/pcc/)
