@@ -34,6 +34,7 @@ Use this link! (https://fun-fact-library.herokuapp.com/)
 ## For Next Time
 * add delete topic feature
 * add delete entry feature
+* feature that allows topics to be reordered
 
 ## Credits
 Python Crash Course by Eric Matthes (https://ehmatthes.github.io/pcc/)
