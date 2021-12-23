@@ -1,5 +1,5 @@
 # fun-fact-library
-> The Fun Fact Library is a simple web app that allows user to store their fun facts under exciting topics. Users must log in to the app to view and create topics/entries.
+> The Fun Fact Library is a simple web app that allows users to store their fun facts under exciting topics. Users must log in to the app to view and create topics/entries.
 
 ## Table of contents
 * [Motivation](#motivation)
