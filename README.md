@@ -7,6 +7,7 @@
 * [Frameworks](#frameworks)
 * [Status](#status)
 * [How to Use](#how-to-use)
+* [For Next Time](#for-next-time)
 * [Credits](#credits)
 * [Contact](#contact)
 
@@ -29,6 +30,10 @@ Project is: _finished_
 
 ## How to Use
 Use this link! (https://fun-fact-library.herokuapp.com/)
+
+## For Next Time
+* add delete topic feature
+* add delete entry feature
 
 ## Credits
 Python Crash Course by Eric Matthes (https://ehmatthes.github.io/pcc/)
