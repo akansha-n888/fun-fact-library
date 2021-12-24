@@ -5,11 +5,13 @@
 * [Motivation](#motivation)
 * [Code Style](#code-style)
 * [Frameworks](#frameworks)
-* [Status](#status)
+* [PaaS](#paas)
 * [How to Use](#how-to-use)
 * [For Next Time](#for-next-time)
+* [Status](#status)
 * [Credits](#credits)
 * [Contact](#contact)
+
 
 ## Motivation
 My friend and I experience (the not so rare) awkward silence. One day she says "Did you know worms have 5 hearts?". 
@@ -25,8 +27,8 @@ It made me think: What if I made something to store my fun facts instead of writ
 * [Django](https://www.djangoproject.com/)
 * [Bootstrap4](https://getbootstrap.com/)
 
-## Status
-Project is: _finished_
+## PaaS
+[Heroku](https://www.heroku.com/home)
 
 ## How to Use
 Use this link! (https://fun-fact-library.herokuapp.com/)
@@ -36,6 +38,9 @@ Use this link! (https://fun-fact-library.herokuapp.com/)
 * add delete entry feature
 * add feature that allows topics to be reordered
 * put .env into .gitignore to protect secret key
+
+## Status
+Project is: _finished_
 
 ## Credits
 Python Crash Course by Eric Matthes (https://ehmatthes.github.io/pcc/)
